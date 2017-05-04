@@ -1,7 +1,7 @@
 {
   "name": "react-cnc",
   "description": "react classnames and html components",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "es/index.js",
   "module": "es/index.js",
   "files": [
@@ -14,7 +14,7 @@
     "react": "^15.5.4"
   },
   "scripts": {
-    "prepublish":"yarn run build",
+    "prepublish": "yarn run build",
     "build": "yarn run clean && yarn run build:process",
     "clean": "rm -rf dist es build_tmp",
     "build:process": "yarn run build:umd-es && yarn run build:es",
