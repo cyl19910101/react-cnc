@@ -1,7 +1,7 @@
 {
   "name": "react-cnc",
   "description": "react classnames and html components",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "es/index.js",
   "module": "es/index.js",
   "files": [
